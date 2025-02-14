@@ -1,0 +1,8 @@
+# 1. create a docker network
+docker network create mongo-network
+docker network ls
+
+# 2. Start MongoDB Container
+docker run -d \
+-p 27017:27017
+
